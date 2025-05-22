@@ -17,7 +17,6 @@
 body {
     background-color: white;
     min-height: 100vh;
-    overflow-y: hidden;
 }
 
 nav{
@@ -49,7 +48,7 @@ nav ul li a {
 
     color: white;
     text-decoration: none;
-    background-color: #7c0000;
+    background-color: #00ff00b8;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -79,11 +78,11 @@ section {
 .titulos {
     text-align: center;
     border: rgb(0, 0, 0) 1px solid;
-    padding: 25px;
+    padding: 30px 25px;
     max-width: 800px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background: linear-gradient( rgba(255, 0, 0, 0.5),rgba(0, 0, 0, 0.596)), 
+    background: linear-gradient( rgba(0, 255, 21, 0.459),rgba(255, 255, 255, 0.6)), 
                 url('/img/pito.jpg');
     background-size: cover;
     background-position: center;
@@ -98,8 +97,4 @@ section {
 
 section main p{
     text-align: left;
-}
-footer{
-    display: flex;
-    align-items: ;
 }
